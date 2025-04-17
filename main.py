@@ -1,2 +1,2 @@
 print("yolo")
-print("wanna test")
+print("wanna test№2")
