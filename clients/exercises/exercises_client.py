@@ -3,6 +3,13 @@ from httpx import Response, QueryParams
 from typing import TypedDict
 
 
+class GetExercisesQueryDict(TypedDict):
+    """
+    Описание структуры запроса на получение списка заданий.
+    """
+    courseId: str
+
+
 class CreateExerciseRequestDict(TypedDict):
     """
     Описание структуры запроса на создание нового задания.
@@ -33,13 +40,13 @@ class ExercisesClient(APIClient):
     Клиент для работы с /api/v1/exercises
     """
 
-    def get_exercises_api(self, course_id: QueryParams) -> Response:
+    def get_exercises_api(self, query: GetExercisesQueryDict) -> Response:
         """
         Метод получения списка заданий для определенного курса по идентификатору.
 
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get("/api/v1/exercises", params=course_id)
+        return self.get("/api/v1/exercises", params=query)
 
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
