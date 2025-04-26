@@ -1,7 +1,5 @@
 from pydantic import BaseModel, Field, HttpUrl
 
-from pydantic_basics import FileSchema
-
 
 class FileSchema(BaseModel):
     """
