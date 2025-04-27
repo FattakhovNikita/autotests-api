@@ -1,9 +1,9 @@
 import httpx
 
-from tools.fakers import get_randon_email
+from tools.fakers import fake
 
 create_user_payload = {
-    "email": get_randon_email(),
+    "email": fake.email(),
     "password": "string",
     "lastName": "string",
     "firstName": "string",
