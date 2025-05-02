@@ -22,10 +22,10 @@ def assert_create_exercise_response(request: CreateExerciseRequestSchema, respon
 
 def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     """
-    Проверяет, что фактические данные курса соответствуют ожидаемым.
+    Проверяет, что фактические данные задания соответствуют ожидаемым.
 
-    :param actual: Фактические данные курса.
-    :param expected: Ожидаемые данные курса.
+    :param actual: Фактические данные задания.
+    :param expected: Ожидаемые данные задания.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     assert_equal(actual.id, expected.id, "id")
