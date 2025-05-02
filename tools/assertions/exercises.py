@@ -1,7 +1,9 @@
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
     ExerciseSchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
 from tools.assertions.base import assert_equal
 from tools.assertions.courses import assert_course
+from tools.assertions.errors import assert_internal_error_response
 
 
 def assert_create_exercise_response(request: CreateExerciseRequestSchema, response: CreateExerciseResponseSchema):
@@ -20,6 +22,7 @@ def assert_create_exercise_response(request: CreateExerciseRequestSchema, respon
     assert_equal(response.exercise.description, request.description, "description")
     assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
 
+
 def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     """
     Проверяет, что фактические данные задания соответствуют ожидаемым.
@@ -37,6 +40,7 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     assert_equal(actual.description, expected.description, "description")
     assert_equal(actual.estimated_time, expected.estimated_time, "estimated_time")
 
+
 def assert_get_exercise_response(
         get_exercise_response: GetExerciseResponseSchema,
         create_exercise_response: CreateExerciseResponseSchema
@@ -49,6 +53,7 @@ def assert_get_exercise_response(
     :raises AssertionError: Если данные пользователя не совпадают.
     """
     assert_exercise(get_exercise_response.exercise, create_exercise_response.exercise)
+
 
 def assert_update_exercise_response(
         request: UpdateExerciseRequestSchema,
@@ -67,3 +72,14 @@ def assert_update_exercise_response(
     assert_equal(response.exercise.order_index, request.order_index, "order_index")
     assert_equal(response.exercise.description, request.description, "description")
     assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
+
+
+def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Проверяет, что ответ на получение задания с некорректным значением id соответствует ожидаемой валидационной ошибке.
+    :param actual: Фактический ответ.
+    :raises AssertionError: Если фактический ответ не соответствует ошибке "Exercise not found"
+    """
+    expected = InternalErrorResponseSchema(details="Exercise not found")
+
+    assert_internal_error_response(actual, expected)
