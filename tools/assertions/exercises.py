@@ -3,7 +3,6 @@ from clients.exercises.exercises_schema import CreateExerciseRequestSchema, Crea
     ExerciseSchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema, \
     GetExercisesResponseSchema
 from tools.assertions.base import assert_equal, assert_length
-from tools.assertions.courses import assert_course
 from tools.assertions.errors import assert_internal_error_response
 
 

@@ -1,5 +1,4 @@
 from http import HTTPStatus
-
 import pytest
 
 from clients.errors_schema import InternalErrorResponseSchema
