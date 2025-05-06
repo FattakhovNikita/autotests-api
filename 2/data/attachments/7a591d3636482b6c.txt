@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ea48d965-6bc4-4052-b3f8-94fa83cf85c1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjEwOjQyLjA3NDM1NCIsInVzZXJfaWQiOiIzYTIxM2ExNC1iN2I3LTQ3ZjQtYTNjYy1jMDZjNGViZmViYzIifQ.HidkSvihBnaxcnG0SymsO0QGZz0lyFB58RZiKsV5EMs' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Three around standard require accept population.","courseId":"8a60b7f0-4f07-4d44-8d00-9bc52663e97c","maxScore":61,"minScore":26,"orderIndex":11,"description":"Minute oil value get. Participant possible remain finish investment boy.\nPosition mouth industry free. Character that see believe.","estimatedTime":"8 weeks"}'

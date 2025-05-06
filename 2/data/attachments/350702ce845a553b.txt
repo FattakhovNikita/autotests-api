@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3eb5b55a-90cd-499e-aa5f-3cbade775df7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjEwOjM5LjM2MzE2NSIsInVzZXJfaWQiOiJmMmZjM2U0Mi00NDkzLTQwY2MtYWQzOC03NzM5ODBjZmQ5OTUifQ.iYq2Vne-m0AAduoT7PLMFRm8JxQO63umKUjGu1JqkzU' \
+  -H 'content-length: 230' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maintain more card majority strategy main.","maxScore":58,"minScore":12,"description":"Herself minute face film plant hour firm heavy. Especially go yet.\nMessage official set ask seem record.","estimatedTime":"3 weeks"}'

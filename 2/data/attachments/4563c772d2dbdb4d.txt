@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:78 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to Brother quite shake trip discover system.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to 71
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to Read southern strategy but their. Strategy whether ball nation.
+Without save mission person worker. Feel hard simply career east collection that help. Very take wall hundred.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:33 Check that "preview_file_id" equals to 58a556b1-2bfe-4645-b29a-8685d940e1c1
+INFO     BASE_ASSERTIONS:base.py:33 Check that "created_by_user_id" equals to 1f875e68-9563-4451-8755-641c2b552967
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

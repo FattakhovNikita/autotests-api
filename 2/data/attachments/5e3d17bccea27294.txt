@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjEwOjQyLjA3NDM1NCIsInVzZXJfaWQiOiIzYTIxM2ExNC1iN2I3LTQ3ZjQtYTNjYy1jMDZjNGViZmViYzIifQ.HidkSvihBnaxcnG0SymsO0QGZz0lyFB58RZiKsV5EMs' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enough end able term.","courseId":"25fbf005-681d-4848-9ca5-a76ae433b995","maxScore":67,"minScore":26,"orderIndex":73,"description":"Between tree floor executive authority suggest. Without receive black street study go matter clear.\nGeneral reach air. Ground me learn approach beyond.","estimatedTime":"3 weeks"}'

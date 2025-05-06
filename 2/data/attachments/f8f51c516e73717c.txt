@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjEwOjQzLjAzOTU5OSIsInVzZXJfaWQiOiJmNjcwZWE0ZS1hZmRhLTQwNGMtYjY2OS1hOGYzM2FlMTg1NTYifQ.m8mvc0vujXHN5x-VVqHBgsVOZlcRw3xllZ9eGfSg6uA' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Two candidate bank some.","maxScore":63,"minScore":11,"description":"Other strong still experience talk test. Model add the open plan. Different knowledge deep central especially experience color.\nMillion would interesting. Another southern court talk.","previewFileId":"33638382-12a6-47a4-a3f6-0a88d4c35868","estimatedTime":"10 weeks","createdByUserId":"f670ea4e-afda-404c-b669-a8f33ae18556"}'

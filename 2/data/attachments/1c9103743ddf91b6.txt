@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjEwOjM5LjM2MzE2NSIsInVzZXJfaWQiOiJmMmZjM2U0Mi00NDkzLTQwY2MtYWQzOC03NzM5ODBjZmQ5OTUifQ.iYq2Vne-m0AAduoT7PLMFRm8JxQO63umKUjGu1JqkzU' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Record smile low clearly thought.","maxScore":83,"minScore":17,"description":"Leg dark history something. Shake site know occur. Act tough language we.\nYet forget form lay father. Push despite care itself level throw. Prepare lot relate month current time agree.","previewFileId":"c433cbf3-f73c-4aa8-8ddf-1fe61b2b373b","estimatedTime":"5 weeks","createdByUserId":"f2fc3e42-4493-40cc-ad38-773980cfd995"}'

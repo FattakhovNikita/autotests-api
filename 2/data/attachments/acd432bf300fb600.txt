@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjEwOjQzLjYyNjUyMCIsInVzZXJfaWQiOiIyYzFjMDMwOC1mOWJkLTQ1N2MtOGY0OS01MGJjNGJhMWYwMTcifQ.u3XOvQvGkfl-oGVg8PQek6nvDQyNXSKSeKa339KzTWw' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"At manage total time lot mind address.","courseId":"f296e9a1-0daf-48b0-b000-852e4e4fe4ff","maxScore":61,"minScore":1,"orderIndex":1,"description":"Game college buy reality mention. Might responsibility others seat should phone. Blue only successful someone modern summer.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjEwOjQyLjM0NzEzOCIsInVzZXJfaWQiOiI1OWE3NmUzNy0yNDNjLTQ3ODEtOTRlMy0xNTAzNGNlZjNjNGQifQ.pIHVlhqe7mbiNqLzQ9IpPUuJCe0w20N-XpeWlmix-qA' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Very message song help available voice glass.","maxScore":91,"minScore":23,"description":"Investment wind interesting. Place catch mind material then.\nStay we hospital everyone whole. How piece left exist law begin.","previewFileId":"64610fa5-9102-46dc-b568-96606daf07aa","estimatedTime":"8 weeks","createdByUserId":"59a76e37-243c-4781-94e3-15034cef3c4d"}'

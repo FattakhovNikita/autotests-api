@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjEwOjQyLjA3NDM1NCIsInVzZXJfaWQiOiIzYTIxM2ExNC1iN2I3LTQ3ZjQtYTNjYy1jMDZjNGViZmViYzIifQ.HidkSvihBnaxcnG0SymsO0QGZz0lyFB58RZiKsV5EMs' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Report director poor almost author theory much.","maxScore":75,"minScore":17,"description":"Many site Congress stage number decision few. Us remain woman exist bar clearly paper. Nature sit true benefit guess campaign southern whose. Reach describe green arrive suggest author.","previewFileId":"0e9f4710-eaba-41fc-94fa-272dc879341d","estimatedTime":"2 weeks","createdByUserId":"3a213a14-b7b7-47f4-a3cc-c06c4ebfebc2"}'

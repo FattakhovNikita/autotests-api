@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjEwOjM5Ljk1MjE0OSIsInVzZXJfaWQiOiIwYjk4NGUzZS02ODAwLTQwNGItODZkZS0yNTk0YTUxNDAwNjIifQ.eidBKpSlHtUJDf65L5KUGRTDVfMbXgpiBTK6MMe0EbM' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hot beyond role however raise some.","maxScore":57,"minScore":5,"description":"None tree successful contain put.\nTeam positive candidate test. Avoid few doctor into door.","previewFileId":"2d5485c2-f943-494b-a32f-a3ce25a80e02","estimatedTime":"5 weeks","createdByUserId":"0b984e3e-6800-404b-86de-2594a5140062"}'
