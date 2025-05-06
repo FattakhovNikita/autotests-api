@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjAxOjI0Ljk1NjY5NyIsInVzZXJfaWQiOiJlNGMzMjlmNi02YTcyLTQyZDUtYTg2ZC1iMGU4ZTkxMTg3NzYifQ.9RXytaTZyJaAOknahZpKGukVDn1PbtJB29Lo8VPdvYg' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nation full laugh generation million.","maxScore":52,"minScore":21,"description":"Middle situation professional affect try magazine Democrat. Possible movement service future education wrong unit.","previewFileId":"e886f079-5515-4090-857e-bfb3e7cfcee5","estimatedTime":"6 weeks","createdByUserId":"e4c329f6-6a72-42d5-a86d-b0e8e9118776"}'

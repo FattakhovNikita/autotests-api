@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/c9ab49bb-aebf-47e9-aa54-312a8b8b82e7
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/c9ab49bb-aebf-47e9-aa54-312a8b8b82e7
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check update course response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to Important truth beautiful machine.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to The seven report reason work oil million become. Job six yeah official sea simply hospital practice.
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9ee86cd5-55ac-40f7-9911-bd29b055b5f9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjAxOjI1Ljg5NzA5NiIsInVzZXJfaWQiOiIyZDFkYWI0Ny01MWViLTRhNzYtOWUyMy01Y2YyNzVkZDJjNWMifQ.sE-ZhBkY_k9GmiED5e1twSVeyQlAHfQAEwatxSGo5YI' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious trade discussion apply.","courseId":"3a970036-0465-4df7-b29b-2cc688770350","maxScore":71,"minScore":21,"orderIndex":25,"description":"Practice usually decide office serve note. Because economic expect source energy various yeah.","estimatedTime":"7 weeks"}'

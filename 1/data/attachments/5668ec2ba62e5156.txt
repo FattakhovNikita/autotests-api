@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjAxOjI2Ljg3NzY5MiIsInVzZXJfaWQiOiI2NjczNjJhNy0yNWUxLTQ2OTMtOWZkOC1mZDRkYmFjNzdjMWYifQ._fCnMucmkWMbndRwCTAj1WWzPHjBaAIh5IBH0wu2kSo' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arm rate season operation how former east.","courseId":"ffd9a756-2686-407b-bb87-9698df175f11","maxScore":75,"minScore":26,"orderIndex":47,"description":"Goal magazine financial wind. Structure Mr magazine paper prepare real.\nWord necessary step protect walk. Physical else media great right still.","estimatedTime":"8 weeks"}'

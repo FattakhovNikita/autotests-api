@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjAxOjI0LjY4MjQ5MSIsInVzZXJfaWQiOiIyZjMxMGQ5My01ZWYxLTRiYWUtOTcwOC1hNjk3Yjg5ZTc4N2IifQ.ZQ0tSckJsrjqHdchmiGzpnHjTtUYDMCiD7FG4fGWi3A' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difficult product message view.","maxScore":50,"minScore":5,"description":"Sure home skill big represent each. Forward product grow maintain short. Decade cultural ok garden no.\nContinue middle near. Always nation order dinner military each clearly.","previewFileId":"374a1e9f-7c34-484b-9fb5-6f8ab262b9da","estimatedTime":"8 weeks","createdByUserId":"2f310d93-5ef1-4bae-9708-a697b89e787b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjAxOjI2LjE3MDE5MCIsInVzZXJfaWQiOiIzNmMyY2UyMy01ODAyLTQwMjAtYmJhZC02ZThkNmEwMTA4MDcifQ.D0y6YNO0MrxYLYH7KANK_1dHTlCWZcjEo6suYTAzneo' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Apply cut already population people.","maxScore":88,"minScore":10,"description":"Law order central local religious. Establish free movement hope present. Small reflect president wear Mrs mouth during.","previewFileId":"58f251d2-a520-4ec5-9390-6732722a32f9","estimatedTime":"3 weeks","createdByUserId":"36c2ce23-5802-4020-bbad-6e8d6a010807"}'

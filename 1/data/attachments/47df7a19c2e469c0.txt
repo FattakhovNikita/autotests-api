@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjAxOjIzLjc1NjE0OCIsInVzZXJfaWQiOiIyNDQ2YmVhYi00YTExLTQ1NDMtYjM1NC05NjdhNDMwOGU3MTcifQ.KO7-otxNjCKlIJft4qY2IySNJV3_rcpstxbaJPXc8xQ' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"National production writer matter bag rich.","maxScore":60,"minScore":11,"description":"Must two most top compare social if remain. Sometimes east benefit figure company cover song. Suffer respond example key daughter even.","previewFileId":"7368bc6f-cae7-40df-bc62-213a63fd1a8a","estimatedTime":"8 weeks","createdByUserId":"2446beab-4a11-4543-b354-967a4308e717"}'

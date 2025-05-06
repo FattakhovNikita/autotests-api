@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjAxOjI3LjQ2MTM2NyIsInVzZXJfaWQiOiJjNWY4YmRhNi01M2NkLTQwMTgtOTkzNS1mMjMzMzcwNWU3NTAifQ.AiGJX95kIKT6uy9Z8qNW0hbGYJOa8h9PbMjGD2RnQB8' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wind feel building loss easy wear science sister.","maxScore":91,"minScore":21,"description":"Traditional best provide look might game. Fear see between cover air.\nWorld model her travel before appear no. Investment one state loss. Information manage parent choice physical go ever.","previewFileId":"f8f334de-52ba-46e4-b9b0-b7c4fb790180","estimatedTime":"7 weeks","createdByUserId":"c5f8bda6-53cd-4018-9935-f2333705e750"}'

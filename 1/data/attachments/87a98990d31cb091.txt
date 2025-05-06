@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTA2VDE0OjAxOjI1Ljg5NzA5NiIsInVzZXJfaWQiOiIyZDFkYWI0Ny01MWViLTRhNzYtOWUyMy01Y2YyNzVkZDJjNWMifQ.sE-ZhBkY_k9GmiED5e1twSVeyQlAHfQAEwatxSGo5YI' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Painting begin actually beautiful car once.","maxScore":72,"minScore":30,"description":"Development job three born hospital.","previewFileId":"3eacbaba-5a95-438f-a01b-22fba8d0bd60","estimatedTime":"5 weeks","createdByUserId":"2d1dab47-51eb-4a76-9e23-5cf275dd2c5c"}'
